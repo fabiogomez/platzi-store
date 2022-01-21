@@ -9,6 +9,14 @@ git:
   depth: 3
 script:
   - yarn build
+notifications:
+  email:
+    recipiens:
+      - fabiogomez28@gmail.com
+    on_success: always
+    on_failure: always
+    
+
 deploy:
   provider: pages
   skip-cleanup: true
