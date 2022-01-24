@@ -10,6 +10,7 @@ git:
 script:
   - yarn build
 notifications:
+  slack: personalproje-dvy7545:WOsknQJ7mr8wW9RuPPw9gBke
   email:
     recipiens:
       - fabiogomez28@gmail.com
